@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.qytech",
+    "module": "roon",
+    "version": "0.1.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "roon-0.1.9.aar",
+          "url": "roon-0.1.9.aar",
+          "size": 856938,
+          "sha512": "9931e992449fc26011b0f6504aab6d6d141ce05f944654f4a38d55372c011ddfe7e7e6955c9578b308d6e08bd6116db437189b6d1793039704a4d98910c9943b",
+          "sha256": "967e4d9116efea6121681923066347a6c24841353b0d09150742e1555c25f729",
+          "sha1": "0c8886ad6a8f234df22b2c0d498a2ba47ba80cb5",
+          "md5": "d92b48a38a8c67dde1683a3b8aaede3e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "roon-0.1.9.aar",
+          "url": "roon-0.1.9.aar",
+          "size": 856938,
+          "sha512": "9931e992449fc26011b0f6504aab6d6d141ce05f944654f4a38d55372c011ddfe7e7e6955c9578b308d6e08bd6116db437189b6d1793039704a4d98910c9943b",
+          "sha256": "967e4d9116efea6121681923066347a6c24841353b0d09150742e1555c25f729",
+          "sha1": "0c8886ad6a8f234df22b2c0d498a2ba47ba80cb5",
+          "md5": "d92b48a38a8c67dde1683a3b8aaede3e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "roon-0.1.9-sources.jar",
+          "url": "roon-0.1.9-sources.jar",
+          "size": 45219,
+          "sha512": "6216ab5c54ecc7c36695710835d88545e61f4d5de2c39e41c1e1893f2caee0f07ffc58254a8e790f2aad4dbfeddb0e91fc79bf00bd9f0a52ef2a62d9372fa60c",
+          "sha256": "612801d9389ccc7b4f15441de1a830ab4c06763df7192563d8240b4d0a6c2932",
+          "sha1": "c834a142cef60acec3b1eebf7c1280c1da1e6e06",
+          "md5": "346c925cb1cf28b2160c9dcc04e96f65"
+        }
+      ]
+    }
+  ]
+}

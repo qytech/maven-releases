@@ -24,6 +24,7 @@ dependencyResolutionManagement {
 dependencies {
     implementation("io.github.qytech:audioplayer:1.2.12")
     implementation("io.github.qytech:networkstorage:0.1.12")
+    implementation("io.github.qytech:roon:0.1.9")
     implementation("io.github.qytech:screenmirror:0.1.2")
     implementation("io.github.qytech:qymultiroom:0.0.5")
 }
@@ -35,6 +36,7 @@ dependencies {
 | --- | --- | --- | --- |
 | `audioplayer` | 音频播放 | [1.2.12 AAR](https://qytech.github.io/maven-releases/io/github/qytech/audioplayer/1.2.12/audioplayer-1.2.12.aar) | [SHA-256](https://qytech.github.io/maven-releases/io/github/qytech/audioplayer/1.2.12/audioplayer-1.2.12.aar.sha256) |
 | `networkstorage` | SMB 和 NFS 网络存储访问 | [0.1.12 AAR](https://qytech.github.io/maven-releases/io/github/qytech/networkstorage/0.1.12/networkstorage-0.1.12.aar) | [SHA-256](https://qytech.github.io/maven-releases/io/github/qytech/networkstorage/0.1.12/networkstorage-0.1.12.aar.sha256) |
+| `roon` | Roon 音频接收与分组播放（ARM64） | [0.1.9 AAR](https://qytech.github.io/maven-releases/io/github/qytech/roon/0.1.9/roon-0.1.9.aar) | [SHA-256](https://qytech.github.io/maven-releases/io/github/qytech/roon/0.1.9/roon-0.1.9.aar.sha256) |
 | `screenmirror` | 屏幕采集、投屏与远程输入 | [0.1.2 AAR](https://qytech.github.io/maven-releases/io/github/qytech/screenmirror/0.1.2/screenmirror-0.1.2.aar) | [SHA-256](https://qytech.github.io/maven-releases/io/github/qytech/screenmirror/0.1.2/screenmirror-0.1.2.aar.sha256) |
 | `qymultiroom` | Android 多房间音频 SDK（ARM64） | [0.0.5 AAR](https://qytech.github.io/maven-releases/io/github/qytech/qymultiroom/0.0.5/qymultiroom-0.0.5.aar) | [SHA-256](https://qytech.github.io/maven-releases/io/github/qytech/qymultiroom/0.0.5/qymultiroom-0.0.5.aar.sha256) |
 

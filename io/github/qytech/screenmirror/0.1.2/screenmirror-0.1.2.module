@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.qytech",
+    "module": "screenmirror",
+    "version": "0.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "screenmirror-0.1.2.aar",
+          "url": "screenmirror-0.1.2.aar",
+          "size": 83702,
+          "sha512": "3f326e8c4131849361cdff8187044603ed10591e4b57b2ddd1369b007fdb2cfa07d6423dec67df9de7b82369d9d4f36a018e9ed27d9ea53226afd8beaa9508f1",
+          "sha256": "609421b5bcbe5d0fa4943fd93426659fcbecb7c6efd226d73ce2316260a8f680",
+          "sha1": "aa4e411cb8311d8dfac6e8bb9aa7362464d08849",
+          "md5": "4ba950b442f322c9a0beefa655bbd477"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-android",
+          "version": {
+            "requires": "2.60.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "screenmirror-0.1.2.aar",
+          "url": "screenmirror-0.1.2.aar",
+          "size": 83702,
+          "sha512": "3f326e8c4131849361cdff8187044603ed10591e4b57b2ddd1369b007fdb2cfa07d6423dec67df9de7b82369d9d4f36a018e9ed27d9ea53226afd8beaa9508f1",
+          "sha256": "609421b5bcbe5d0fa4943fd93426659fcbecb7c6efd226d73ce2316260a8f680",
+          "sha1": "aa4e411cb8311d8dfac6e8bb9aa7362464d08849",
+          "md5": "4ba950b442f322c9a0beefa655bbd477"
+        }
+      ]
+    }
+  ]
+}

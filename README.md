@@ -26,7 +26,7 @@ dependencies {
     implementation("io.github.qytech:networkstorage:0.1.12")
     implementation("io.github.qytech:roon:0.1.9")
     implementation("io.github.qytech:screenmirror:0.1.2")
-    implementation("io.github.qytech:qymultiroom:0.0.5")
+    implementation("io.github.qytech:qymultiroom:0.0.6")
 }
 ```
 
@@ -38,6 +38,6 @@ dependencies {
 | `networkstorage` | SMB 和 NFS 网络存储访问 | [0.1.12 AAR](https://qytech.github.io/maven-releases/io/github/qytech/networkstorage/0.1.12/networkstorage-0.1.12.aar) | [SHA-256](https://qytech.github.io/maven-releases/io/github/qytech/networkstorage/0.1.12/networkstorage-0.1.12.aar.sha256) |
 | `roon` | Roon 音频接收与分组播放（ARM64） | [0.1.9 AAR](https://qytech.github.io/maven-releases/io/github/qytech/roon/0.1.9/roon-0.1.9.aar) | [SHA-256](https://qytech.github.io/maven-releases/io/github/qytech/roon/0.1.9/roon-0.1.9.aar.sha256) |
 | `screenmirror` | 屏幕采集、投屏与远程输入 | [0.1.2 AAR](https://qytech.github.io/maven-releases/io/github/qytech/screenmirror/0.1.2/screenmirror-0.1.2.aar) | [SHA-256](https://qytech.github.io/maven-releases/io/github/qytech/screenmirror/0.1.2/screenmirror-0.1.2.aar.sha256) |
-| `qymultiroom` | Android 多房间音频 SDK（ARM64） | [0.0.5 AAR](https://qytech.github.io/maven-releases/io/github/qytech/qymultiroom/0.0.5/qymultiroom-0.0.5.aar) | [SHA-256](https://qytech.github.io/maven-releases/io/github/qytech/qymultiroom/0.0.5/qymultiroom-0.0.5.aar.sha256) |
+| `qymultiroom` | Android 多房间音频 SDK（ARM64） | [0.0.6 AAR](https://qytech.github.io/maven-releases/io/github/qytech/qymultiroom/0.0.6/qymultiroom-0.0.6.aar) | [SHA-256](https://qytech.github.io/maven-releases/io/github/qytech/qymultiroom/0.0.6/qymultiroom-0.0.6.aar.sha256) |
 
-qymultiroom 的 Native 组件使用 FFmpeg、SACD Ripper 和 Snapcast 等开源软件。0.0.5 的对应源码包包含上游源码、QY Native 修改、补丁和重建脚本。[Native 源码下载](https://github.com/qytech/maven-releases/releases/download/qymultiroom-0.0.5/qymultiroom-0.0.5-native-sources.zip) · [组件许可证及源码校验值](https://qytech.github.io/maven-releases/io/github/qytech/qymultiroom/0.0.5/qymultiroom-0.0.5-notices.zip)
+qymultiroom 的 Native 组件使用 FFmpeg、SACD Ripper 和 Snapcast 等开源软件。0.0.6 的对应源码包包含上游源码、QY Native 修改、补丁和重建脚本。[Native 源码下载](https://github.com/qytech/maven-releases/releases/download/qymultiroom-0.0.6/qymultiroom-0.0.6-native-sources.zip) · [组件许可证及源码校验值](https://qytech.github.io/maven-releases/io/github/qytech/qymultiroom/0.0.6/qymultiroom-0.0.6-notices.zip)
